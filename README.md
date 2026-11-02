@@ -47,18 +47,9 @@ npm start && npm run android
 ### Extras included
 Search, dark mode on web and app, and a GA4 `generate_lead` event on enquiry submit (active once `NEXT_PUBLIC_GA_ID` is set).
 
-### Incomplete or limited
+### Limited
 - "My enquiries" in the app shows **Sent**, not the live status. The API has no public status endpoint, so the app cannot see admin changes.
 - Product photos are placeholder images from the seed file.
 - Automated tests cover validation, CSV export and the budget filter only. There are no API or screen tests.
 - The Render free tier sleeps when idle, so the first request after a pause can take about 30 seconds.
 - Android only. No iOS build, push notification or email alert.
-
-### What I would improve with more time
-- Email the sales team on each new enquiry, and add the status endpoint so the app reflects admin changes.
-- Move the admin token from `localStorage` to an httpOnly cookie.
-- Add an admin screen to manage products and upload real photos, and use `next/image`.
-- Add API integration tests, and a signed release build for the app.
-
-### Hours spent
-Total: **_ hours** (backend _, website _, app _, deploy and docs _).
