@@ -6,8 +6,8 @@ Practical assignment for V Green Media. One Express + MongoDB backend feeds a Ne
 |---|---|
 | Live website | https://vgreen-assessment.vercel.app |
 | Admin page | https://vgreen-assessment.vercel.app/admin · username `admin` · password `password` |
-| Android APK | _paste Google Drive link_ |
-| Screen recording | _paste link_ |
+| Android APK | https://drive.google.com/file/d/1WAhAWunaftgK4pFeZn-M80adWwam4Kpo/view?usp=sharing |
+| Screen recording | https://drive.google.com/file/d/1fe4gL5dKQCBSUe1_p87VFZCTc6WxsUTQ/view?usp=sharing |
 
 | Folder | What |
 |---|---|
