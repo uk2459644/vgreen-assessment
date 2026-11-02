@@ -1,0 +1,87 @@
+# ===================================================
+# Dependencies
+# ===================================================
+node_modules/
+.pnp
+.pnp.js
+
+# ===================================================
+# Environment and Credentials (CRITICAL SECRETS)
+# ===================================================
+.env
+.env*
+.env.*
+*.env
+*.env.*
+*.env.local
+atlas-credentials.env
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+
+# Explicitly keep example templates safe to commit
+!.env.example
+!.env.*.example
+!*.env.example
+
+# React Native iOS env loader (must be committed; .local contains secrets)
+!mobile/ios/.xcode.env
+!ios/.xcode.env
+
+# ===================================================
+# Build outputs & frameworks
+# ===================================================
+dist/
+build/
+out/
+.next/
+.expo/
+.cache/
+.temp/
+.tmp/
+.vercel/
+
+# ===================================================
+# Android / Mobile binaries & keystores
+# ===================================================
+*.apk
+*.aab
+*.keystore
+!debug.keystore
+.gradle/
+.cxx/
+local.properties
+
+# ===================================================
+# Logs
+# ===================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===================================================
+# OS & Editor artifacts
+# ===================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
